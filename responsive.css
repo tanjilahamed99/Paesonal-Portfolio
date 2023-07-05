@@ -1,0 +1,311 @@
+@media screen and (min-width:979px) and (max-width:1191px)
+{
+    .leftAbout img
+    {
+        width: 400px;
+        margin-left: 53px;
+    }
+
+    .rightAbout
+    {
+        margin-top: 81px;
+        margin-left: 0px;
+        height: 318px;
+        margin-right: 46px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:978px)
+{
+    .leftAbout img
+    {
+        width: 300px;
+        margin-left: 53px;
+    }
+
+    .rightAbout
+    {
+        margin-top: 81px;
+        margin-left: 0px;
+        height: 296px;
+        margin-right: 46px;
+    }
+
+    .text input
+    {
+
+        padding: 10px 0;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width:799px)
+{
+    .icons i
+    {
+        display: inline-block;
+    }
+
+    .navber
+    {
+        margin: 0 50px 0 0;
+    }
+
+    .nav
+    {
+
+        display: inline-block;
+    }
+
+    .nav
+    {
+        position: absolute;
+        top: 6%;
+        left: 0;
+        right: 0;
+        padding: 5px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        scroll-behavior: smooth;
+
+    }
+
+    .nav a:hover
+    {
+        padding: 0;
+    }
+
+    .nav.active
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .nav a
+    {
+        display: block;
+        padding-left: 5px;
+        box-shadow: 2px 2px 10px 2px rgb(115, 19, 205);
+        background-color: rgb(143, 143, 248);
+        border-radius: 7px;
+    }
+
+    /* home */
+    #Home
+    {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    .lefthome
+    {
+        margin: 70px;
+        margin-bottom: 30px;
+    }
+
+    .lefthome h3
+    {
+        font-size: 1.5rem;
+    }
+
+    #element
+    {
+        font-size: 1.5rem;
+    }
+
+    .righthome
+    {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .righthome img
+    {
+        display: none;
+    }
+
+    /* experince */
+    .expcon
+    {
+        display: inline-block;
+    }
+
+    .jsexp
+    {
+        margin-left: 36px;
+    }
+
+    .projacttittle h2
+    {
+        padding-top: 20vh;
+    }
+
+    /* about */
+    #About
+    {
+        display: block;
+        height: 740px;
+    }
+
+    .leftAbout
+    {
+        justify-content: center;
+        display: flex;
+    }
+
+    .leftAbout img
+    {
+        width: 350px;
+        margin: 50px 0 0 0;
+    }
+
+    .rightAbout
+    {
+        padding: 0px;
+        margin-left: 140px;
+        height: 285px;
+    }
+
+    .rightAbout
+    {
+
+        text-align: center;
+    }
+
+    .rightAbout h3
+    {
+        margin: 10px;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .rightAbout h4
+    {
+        width: auto;
+        text-align: center;
+    }
+
+    Address
+    {
+        margin: 10px;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .text input
+    {
+        width: 80%;
+        padding: 10px 0;
+        margin: auto;
+    }
+
+    .leftPractice p,
+    .rightPractice p
+    {
+
+        font-size: .7rem;
+        width: 64%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width:562px)
+{
+    .rightAbout
+    {
+        height: 325px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width:499px)
+{
+    .lefthome
+    {
+        margin: 26px;
+    }
+
+    .lefthome h3,
+    #element,
+    .explittle span,
+    .textpro h3
+    {
+        font-size: 1rem;
+    }
+
+    .rightexp,
+    .leftexp
+    {
+        display: block;
+        margin-left: 0;
+    }
+
+    .jsexp
+    {
+        margin-left: 11px;
+    }
+
+    .Practicetittle h3
+    {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .Practicecon
+    {
+        display: block;
+        height: 1038px;
+    }
+
+    .leftPractice
+    {
+        margin-left: 0;
+    }
+
+    .projacttittle h2
+    {
+        font-size: 1rem;
+        padding-top: 24px;
+    }
+
+    .textpro h4
+    {
+        font-size: .8rem;
+    }
+
+    .textpro p
+    {
+        font-size: .7rem;
+        width: 70%;
+    }
+
+    .leftAbout img
+    {
+        width: 285px;
+    }
+
+    .rightAbout
+    {
+        margin: 51px;
+        height: 300px;
+    }
+
+    .par p
+    {
+        font-size: 1.1rem;
+    }
+
+    .par h1,
+    .par h2,
+    .par h3,
+    .par h4,
+    .end p
+    {
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width:392px)
+{
+    .Practicecon
+    {
+        height: 1100px;
+    }
+}
